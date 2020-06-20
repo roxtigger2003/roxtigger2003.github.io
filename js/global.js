@@ -202,7 +202,7 @@ function show_page(page) {
 function socket_connect() {
 	socket = null;
 
-	var socket_address = "http://bot-uptime.herokuapp.com:55839";
+	var socket_address = "http://roxtigger2003-botapi.glitch.me:3000";
 
 	if (location.href.indexOf('localhost') != -1) {
 		socket_address = "http://localhost:5432";
